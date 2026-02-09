@@ -7,7 +7,7 @@ public class SiteButtonController : MonoBehaviour
     [SerializeField] private SiteModel _model;
     public SiteModel Model => _model;
 
-    [SerializeField] private GameObject _selectedImage;
+    [SerializeField] private Animator _animator;
 
     private UnityEvent<SiteButtonController> _siteClicked = new UnityEvent<SiteButtonController>();
     public UnityEvent<SiteButtonController> SiteClicked => _siteClicked;
@@ -34,6 +34,6 @@ public class SiteButtonController : MonoBehaviour
 
     public void SetSelected(bool selected)
     {
-        _selectedImage.SetActive(selected);
+        _animator.SetBool("Select", selected);
     }
 }

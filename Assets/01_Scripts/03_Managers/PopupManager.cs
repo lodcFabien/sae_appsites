@@ -14,6 +14,7 @@ public class PopupManager : Singleton<PopupManager>
     [SerializeField] private Image _image;   
     [SerializeField] private Transform _jobButtonContainer;   
     [SerializeField] private PopupJobButtonController _jobButtonPrefab;
+    [SerializeField] private GameObject _imageButtons;
 
     private List<PopupJobButtonController> _spawnedJobButtons = new List<PopupJobButtonController>();
     private List<Sprite> _images = new List<Sprite>();
@@ -42,6 +43,9 @@ public class PopupManager : Singleton<PopupManager>
             _name.text = model.Name;
             AddJobButtons(model);
             _images = model.Images;
+            _imageButtons.SetActive(_images.Count > 1);
+            _imageIndex = 0;
+            SetImage();
         }
         else
         {

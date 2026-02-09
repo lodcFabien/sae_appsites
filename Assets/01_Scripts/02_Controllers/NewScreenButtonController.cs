@@ -6,7 +6,7 @@ public class NewScreenButtonController : MonoBehaviour
 {
     [SerializeField] protected ScreenController _screenToActivate;
 
-    public void OnClick()
+    public virtual void OnClick()
     {
         GameManager.Instance.SetNewScreen(_screenToActivate);
     }

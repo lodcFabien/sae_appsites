@@ -19,22 +19,22 @@ MonoBehaviour:
   SiteTypology: 0
   Jobs:
   - Type: 4
-    Description: "DMC - Direction du Montage Civil\n\r\nAfin de r\xE9pondre \xE0
-      la mont\xE9e croissante de la demande de nouveaux moteurs LEAP, une nouvelle
+    Description: "<i>DMC - Direction du Montage Civil</i>\n\r\nAfin de r\xE9pondre
+      \xE0 la mont\xE9e croissante de la demande de nouveaux moteurs LEAP, une nouvelle
       usine de montage ouvrira en 2027 \xE0 Casablanca. Elle sera construite sur
       le m\xEAme site que l\u2019usine MRO dont l\u2019ouverture est pr\xE9vue pour
       2026. Elle permettra de produire 350 moteurs par an \xE0 horizon 2029. Un banc
       d\u2019essais \xE9paulera \xE9galement les deux sites, dont l\u2019ouverture
-      est planifi\xE9e d\xE9but 2028.\n\nChiffres cl\xE9s du projet :\nMise en service
-      : septembre 2027.\nObjectif 2029 : 350 moteurs par an."
+      est planifi\xE9e d\xE9but 2028.\n\n<b>Chiffres cl\xE9s du projet :</b>\nMise
+      en service : septembre 2027.\nObjectif 2029 : 350 moteurs par an."
   - Type: 6
-    Description: "D2S - Direction Support et Services (MRO)\n\r\nLe futur site de
-      Casablanca, d\xE9di\xE9 aux moteurs LEAP, permettra de r\xE9pondre \xE0 la
-      demande croissante de shop visits.\n\r\nPr\xE9vue pour une ouverture en septembre
-      2026, l'usine montera progressivement en puissance pour atteindre un rythme
-      de croisi\xE8re de 150 visites annuelles d'ici 2031. Pour soutenir cette ambition
-      et garantir l'excellence de nos services, 600 nouveaux collaborateurs rejoindront
-      le site, couvrant l'ensemble des expertises op\xE9rationnelles et des fonctions
-      tertiaires.\n\r\nChiffres cl\xE9s du projet :\nMise en service : Septembre
-      2026.\r\nSuperficie\_: 25\_000 m\xB2.\nObjectif 2031 : 150 shop visits par
-      an.\nEffectif : 600 cr\xE9ations de postes."
+    Description: "<i>D2S - Direction Support et Services (MRO)</i>\n\r\nLe futur
+      site de Casablanca, d\xE9di\xE9 aux moteurs LEAP, permettra de r\xE9pondre
+      \xE0 la demande croissante de shop visits.\n\r\nPr\xE9vue pour une ouverture
+      en septembre 2026, l'usine montera progressivement en puissance pour atteindre
+      un rythme de croisi\xE8re de 150 visites annuelles d'ici 2031. Pour soutenir
+      cette ambition et garantir l'excellence de nos services, 600 nouveaux collaborateurs
+      rejoindront le site, couvrant l'ensemble des expertises op\xE9rationnelles
+      et des fonctions tertiaires.\n\r\n<b>Chiffres cl\xE9s du projet :</b>\nMise
+      en service : Septembre 2026.\r\nSuperficie\_: 25\_000 m\xB2.\nObjectif 2031
+      : 150 shop visits par an.\nEffectif : 600 cr\xE9ations de postes."

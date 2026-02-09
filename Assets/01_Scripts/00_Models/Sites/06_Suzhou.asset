@@ -18,8 +18,18 @@ MonoBehaviour:
   SiteTypology: 2
   Jobs:
   - Type: 4
-    Description: "DMC - Direction du Montage Civil \n\r\nLa Direction du Montage
-      de Safran Aircraft Engines doit agrandir son site de Montage de Suzhou en chine
-      pour lui permettre de tenir le Ramp-Up des livraisons de moteurs LEAP-1A.\n\r\nCette
-      extension de site permettra de produire environ 100 modules mineurs 17 pour
-      le LEAP-1A par an\r\n"
+    Description: '<i>DMC - Direction du Montage Civil </i>
+
+      
+
+      La Direction
+      du Montage de Safran Aircraft Engines doit agrandir son site de Montage de
+      Suzhou en chine pour lui permettre de tenir le Ramp-Up des livraisons de moteurs
+      LEAP-1A.
+
+      
+
+      Cette extension de site permettra de produire environ
+      100 modules mineurs 17 pour le LEAP-1A par an
+
+'

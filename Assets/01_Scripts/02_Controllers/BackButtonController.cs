@@ -12,4 +12,10 @@ public class BackButtonController : NewScreenButtonController
     {
         this.gameObject.SetActive(newScreen != _screenToActivate);
     }
+
+    public override void OnClick()
+    {
+        base.OnClick();
+        PopupManager.Instance.HidePopup();
+    }
 }

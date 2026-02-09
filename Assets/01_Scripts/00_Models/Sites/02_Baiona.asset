@@ -18,8 +18,8 @@ MonoBehaviour:
   SiteTypology: 1
   Jobs:
   - Type: 3
-    Description: "DI - Direction Industrielle \n\r\nLe 25 juillet 2024, Safran Aircraft
-      Engines a franchi une \xE9tape importante \xE0 Bayonne avec l\u2019acquisition
+    Description: "<i>DI - Direction Industrielle </i>\n\r\nLe 25 juillet 2024, Safran
+      Aircraft Engines a franchi une \xE9tape importante \xE0 Bayonne avec l\u2019acquisition
       d\u2019A\xE9ro Sud-Ouest (ASO). Cette op\xE9ration vise \xE0 int\xE9grer en
       interne le proc\xE9d\xE9 unique de formage \xE0 chaud d\xE9velopp\xE9 par deux
       experts d\u2019ASO, afin de produire les bords d\u2019attaque des aubes de
@@ -31,6 +31,6 @@ MonoBehaviour:
       d\xE9di\xE9 \xE0 la fabrication et \xE0 la r\xE9paration des aubes et carters
       de soufflante en composites tiss\xE9s 3D du LEAP. Cette int\xE9gration renforce
       la ma\xEEtrise technologique et la cha\xEEne de production du Groupe autour
-      de ce moteur de nouvelle g\xE9n\xE9ration.\n\nChiffres cl\xE9s du projet :\nMise
-      en service IT : D\xE9cembre 2025.\nObjectif : 500 pi\xE8ces / an.\nEffectif
+      de ce moteur de nouvelle g\xE9n\xE9ration.\n\n<b>Chiffres cl\xE9s du projet
+      :</b>\nMise en service IT : D\xE9cembre 2025.\nObjectif : 500 pi\xE8ces / an.\nEffectif
       : 20 salari\xE9s."

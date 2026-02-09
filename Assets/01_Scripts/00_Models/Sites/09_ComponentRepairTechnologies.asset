@@ -17,12 +17,12 @@ MonoBehaviour:
   - {fileID: 2885404083046372839, guid: 3af00a28322ef7b4d928151b8399aed0, type: 3}
   SiteTypology: 1
   Jobs:
-  - Type: 0
-    Description: "D2S - Direction Support et Services (MRO)\n\r\nComponent Repair
-      Technologies est une entreprise sp\xE9cialis\xE9e dans la r\xE9paration de
-      pi\xE8ces de grandes dimensions (carters, pi\xE8ces tournantes). Rachet\xE9e
+  - Type: 6
+    Description: "<i>D2S - Direction Support et Services (MRO)</i>\n\r\nComponent
+      Repair Technologies est une entreprise sp\xE9cialis\xE9e dans la r\xE9paration
+      de pi\xE8ces de grandes dimensions (carters, pi\xE8ces tournantes). Rachet\xE9e
       par Safran Aircraft Engines en 2025, elle est situ\xE9e dans l\u2019Ohio aux
       Etats-Unis. L\u2019objectif est d\u2019augmenter la capacit\xE9 de production
-      de 50% \xE0 court terme.  \n\r\nChiffres cl\xE9s du projet :\nMise en service
-      : Q4 2026.\nObjectif 2031 : 150 shop visits par an.\nEffectif\_: 500 personnes
-      sur site."
+      de 50% \xE0 court terme.  \n\r\n<b>Chiffres cl\xE9s du projet :</b>\nMise en
+      service : Q4 2026.\nObjectif 2031 : 150 shop visits par an.\nEffectif\_: 500
+      personnes sur site."
