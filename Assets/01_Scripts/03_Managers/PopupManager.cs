@@ -15,6 +15,7 @@ public class PopupManager : Singleton<PopupManager>
     [SerializeField] private Transform _jobButtonContainer;   
     [SerializeField] private PopupJobButtonController _jobButtonPrefab;
     [SerializeField] private GameObject _imageButtons;
+    [SerializeField] private GameObject _imageContainer;
 
     private List<PopupJobButtonController> _spawnedJobButtons = new List<PopupJobButtonController>();
     private List<Sprite> _images = new List<Sprite>();
@@ -22,6 +23,9 @@ public class PopupManager : Singleton<PopupManager>
 
     private UnityEvent _popupQuit = new UnityEvent();
     public UnityEvent PopupQuit => _popupQuit;
+
+    private SiteModel _currentModel;
+    public SiteModel CurrentModel => _currentModel;
 
     private void Awake()
     {
@@ -37,6 +41,8 @@ public class PopupManager : Singleton<PopupManager>
 
     public void SetContent(SiteModel model)
     {
+        _currentModel = model;
+
         if (model != null)
         {
             _animator.SetBool("Visible", true);
@@ -97,7 +103,11 @@ public class PopupManager : Singleton<PopupManager>
 
     public void SetImage()
     {
-        _image.sprite = _images[_imageIndex];
+        _imageContainer.SetActive(_images.Count > 0);
+        if (_images.Count > 0)
+        {
+            _image.sprite = _images[_imageIndex];
+        }
     }
 
 }

@@ -11,20 +11,21 @@ public class GameManager : Singleton<GameManager>
     
     
     private ScreenController _currentScreen;
+    public ScreenController CurrentSreen => _currentScreen;
 
     private UnityEvent _initEvent = new UnityEvent();    
     public UnityEvent InitEvent => _initEvent;    
-
-    private void Awake()
-    {
-        Init();
-    }
 
     public void Init()
     {
         _currentScreen = _defaultScreen;
         OnTransitionMiddle();
         _initEvent.Invoke();
+    }
+
+    private void Start()
+    {
+        Init();
     }
 
     private UnityEvent<ScreenController> _newSreenEvent = new UnityEvent<ScreenController>();

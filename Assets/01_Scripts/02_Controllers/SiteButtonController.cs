@@ -15,6 +15,11 @@ public class SiteButtonController : MonoBehaviour
     private void OnEnable()
     {
         ActionOnFilterEdited();
+
+        if(PopupManager.Instance.CurrentModel != null && PopupManager.Instance.CurrentModel == _model)
+        {
+            SetSelected(true);
+        }
     }
 
     private void Awake()
