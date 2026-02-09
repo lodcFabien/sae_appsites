@@ -3,20 +3,14 @@ using UnityEngine;
 
 public class Enums
 { 
-    public enum FilterType
+    public enum Filter
     {
         NewSite,
         Buyout,
         Extension,
-        D2M,
-
-    }
-
-    public enum JobDirection
-    {
-        D2M,
-        D2C,
+        DI,
         DMC,
-        DI
+        D2M,
+        D2S
     }
 }

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa48c8eb9fc48b448a4ab1a2ed0d432d, type: 3}
+  m_Name: 09_ComponentRepairTechnologies
+  m_EditorClassIdentifier: 
+  Name: Component Repair Technologies
+  Images:
+  - {fileID: 2885404083046372839, guid: 3af00a28322ef7b4d928151b8399aed0, type: 3}
+  SiteTypology: 1
+  Jobs:
+  - Type: 0
+    Description: "D2S - Direction Support et Services (MRO)\n\r\nComponent Repair
+      Technologies est une entreprise sp\xE9cialis\xE9e dans la r\xE9paration de
+      pi\xE8ces de grandes dimensions (carters, pi\xE8ces tournantes). Rachet\xE9e
+      par Safran Aircraft Engines en 2025, elle est situ\xE9e dans l\u2019Ohio aux
+      Etats-Unis. L\u2019objectif est d\u2019augmenter la capacit\xE9 de production
+      de 50% \xE0 court terme.  \n\r\nChiffres cl\xE9s du projet :\nMise en service
+      : Q4 2026.\nObjectif 2031 : 150 shop visits par an.\nEffectif\_: 500 personnes
+      sur site."

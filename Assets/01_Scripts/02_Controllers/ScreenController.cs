@@ -4,12 +4,12 @@ using static Enums;
 
 public class ScreenController : MonoBehaviour
 {
-    private void Awake()
+    protected virtual void Awake()
     {
         GameManager.Instance.NewSreenEvent.AddListener(ActionOnNewScreen);
     }
 
-    private void ActionOnNewScreen(ScreenController newScreen)
+    protected virtual void ActionOnNewScreen(ScreenController newScreen)
     {
         this.gameObject.SetActive(newScreen == this);   
     }

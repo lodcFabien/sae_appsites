@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa48c8eb9fc48b448a4ab1a2ed0d432d, type: 3}
+  m_Name: 01_STA_Rennes
+  m_EditorClassIdentifier: 
+  Name: STA Rennes
+  Images:
+  - {fileID: 8221607794922587742, guid: 381209b804b9c584a9d08b9d1e2946a0, type: 3}
+  - {fileID: 117629184312973049, guid: ad03cb7795c2dc54898f1c6233f068f2, type: 3}
+  - {fileID: -472864061019622330, guid: 6d9dabdc99692fa4787f864756ba2634, type: 3}
+  SiteTypology: 0
+  Jobs:
+  - Type: 3
+    Description: "DI - Direction Industrielle \n\r\nDans un contexte de forte croissance
+      de ses activit\xE9s civiles et militaires, Safran Aircraft Engines confirme
+      son implantation strat\xE9gique pr\xE8s de Rennes. Annonc\xE9 en f\xE9vrier
+      2024, ce nouveau site industriel verra le jour \xE0 l\u2019horizon 2027 au
+      c\u0153ur du P\xF4le d\u2019excellence de La Janais.\r\nL'usine sera d\xE9di\xE9e
+      \xE0 la production critique d\u2019aubes de turbine pour les moteurs LEAP et
+      M88, jouant un r\xF4le essentiel pour soutenir l'acc\xE9l\xE9ration de la cadence
+      de production (ramp-up) de ces deux programmes majeurs.\r\nCes activit\xE9s
+      seront regroup\xE9es au sein d'une nouvelle entit\xE9, Safran Turbine Airfoils.
+      Avec pr\xE8s de 200 emplois cr\xE9\xE9s dans un premier temps, ce site renforcera
+      significativement le r\xE9seau mondial de Safran pour la production d\u2019aubages
+      de turbine avanc\xE9s.\n\nChiffres cl\xE9s du projet :\nMise en service : Janvier
+      2027.\r\nSurface : > 6 hectares\nObjectif : 500 000 pi\xE8ces de moteur / an.\nEffectif
+      : 200 cr\xE9ations de postes."
+  - Type: 6
+    Description: "D2S - Direction Support et Services (MRO)\n\r\nSafran Aircraft
+      Engines construit deux nouvelles usines \xE0 Rennes\_: une usine MRO et une
+      fonderie. L\u2019usine MRO doit permettre de renforcer le nombre de pi\xE8ces
+      inspect\xE9es et r\xE9par\xE9es en France, avec un objectif de 36 000 r\xE9parations
+      annuelles \xE0 terme.\n\r\nChiffres cl\xE9s du projet :\nMise en service :
+      Janvier 2028.\nObjectif: 66 000 inspections de pi\xE8ces par an, 36 000 r\xE9parations
+      de pi\xE8ces par an.\nEffectif : 250 cr\xE9ations de postes."

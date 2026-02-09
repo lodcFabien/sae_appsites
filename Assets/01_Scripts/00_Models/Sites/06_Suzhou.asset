@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa48c8eb9fc48b448a4ab1a2ed0d432d, type: 3}
+  m_Name: 06_Suzhou
+  m_EditorClassIdentifier: 
+  Name: Suzhou
+  Images:
+  - {fileID: 2568942262999472619, guid: 076073173ceeb114eb3c669de511ed83, type: 3}
+  SiteTypology: 2
+  Jobs:
+  - Type: 4
+    Description: "DMC - Direction du Montage Civil \n\r\nLa Direction du Montage
+      de Safran Aircraft Engines doit agrandir son site de Montage de Suzhou en chine
+      pour lui permettre de tenir le Ramp-Up des livraisons de moteurs LEAP-1A.\n\r\nCette
+      extension de site permettra de produire environ 100 modules mineurs 17 pour
+      le LEAP-1A par an\r\n"

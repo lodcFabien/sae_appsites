@@ -5,7 +5,7 @@ using static Enums;
 
 public class FilterButtonController : MonoBehaviour
 {
-    [SerializeField] private FilterType _filterType;
+    [SerializeField] private Filter _filterType;
     [SerializeField] private FilterButtonView _view;
 
     private bool _activated = true;

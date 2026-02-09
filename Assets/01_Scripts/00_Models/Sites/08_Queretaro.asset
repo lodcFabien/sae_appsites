@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa48c8eb9fc48b448a4ab1a2ed0d432d, type: 3}
+  m_Name: 08_Queretaro
+  m_EditorClassIdentifier: 
+  Name: Queretaro
+  Images:
+  - {fileID: 8807999180431895023, guid: e5a27a86c68c7204a800e9e13c5b8514, type: 3}
+  SiteTypology: 0
+  Jobs:
+  - Type: 6
+    Description: "D2S - Direction Support et Services (MRO)\n\r\nLe site existant
+      de Quer\xE9taro produit 225 shop visits annuels. Afin de r\xE9pondre \xE0 la
+      future demande estim\xE9e \xE0 350 shop visits par an, un nouveau site d\xE9di\xE9
+      MRO a \xE9t\xE9 construit \xE0 3km du premier. Il devrait, \xE0 terme, permettre
+      de produire 125 shop visits par an.\_\nDe plus, l'usine sera renforc\xE9e par
+      un banc d'essai, le premier de Quer\xE9taro.\n\r\nChiffres cl\xE9s du projet
+      :\nMise en service : octobre 2025.\r\nSuperficie\_: 14\_000 m\xB2.\nObjectif
+      2031 : 125 shop visits par an.\nEffectif : 525 cr\xE9ations de postes.\r\n"

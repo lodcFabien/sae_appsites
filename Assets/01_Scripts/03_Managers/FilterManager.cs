@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.Events;
@@ -10,17 +11,20 @@ public class FilterManager : Singleton<FilterManager>
     private UnityEvent _filtersEditedEvent = new UnityEvent();
     public UnityEvent FiltersEditedEvent => _filtersEditedEvent;
 
-    private Dictionary<FilterType, bool> _filters = new Dictionary<FilterType, bool>();
+    public List<Filter> _filters = new List<Filter>();
+    public List<Filter> Filters => _filters;
 
-    public void EditFilter(FilterType type, bool value)
+    public void EditFilter(Filter type, bool add)
     {
-        if (!_filters.ContainsKey(type))
+        if (add)
         {
-            _filters.Add(type, value);
+            _filters.Add(type);
         }
         else
         {
-            _filters[type] = value;
+            _filters.Remove(type);
         }
+        _filters.Sort();
+        _filtersEditedEvent.Invoke();   
     }
 }

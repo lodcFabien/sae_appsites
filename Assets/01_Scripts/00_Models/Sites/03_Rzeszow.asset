@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa48c8eb9fc48b448a4ab1a2ed0d432d, type: 3}
+  m_Name: 03_Rzeszow
+  m_EditorClassIdentifier: 
+  Name: "Rzesz\xF3w"
+  Images:
+  - {fileID: 6698677433582134638, guid: c206a03ee2153b14ba1eb8aa4f11cb3f, type: 3}
+  SiteTypology: 0
+  Jobs:
+  - Type: 3
+    Description: "DI - Direction Industrielle \r\n\r\nCr\xE9ation d'un nouveau b\xE2timent
+      pour la R&D Pologne \xE0 Rzesz\xF3w (3,780 m\xB2) afin d\u2019accueillir 295
+      personnes incluant 25 collaborateurs de STS Pologne. A terme, le b\xE2timent
+      pourra accueillir 360 personnes.\n\r\nL\u2019objectif de ce nouveau b\xE2timent
+      est d\u2019acc\xE9l\xE9rer le ramp-up pour SAEP Research & Development Center
+      et STS R&D center, notamment pour le d\xE9veloppement du programme Rise.\n\r\nChiffres
+      cl\xE9s du projet :\nMise en service IT : 2028/2029.\nEffectif : 360 salari\xE9s."
