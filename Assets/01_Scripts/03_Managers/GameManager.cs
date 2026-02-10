@@ -11,7 +11,6 @@ public class GameManager : Singleton<GameManager>
     
     
     private ScreenController _currentScreen;
-    public ScreenController CurrentSreen => _currentScreen;
 
     private UnityEvent _initEvent = new UnityEvent();    
     public UnityEvent InitEvent => _initEvent;    
