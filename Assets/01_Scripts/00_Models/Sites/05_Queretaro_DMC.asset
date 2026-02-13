@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa48c8eb9fc48b448a4ab1a2ed0d432d, type: 3}
+  m_Name: 05_Queretaro_DMC
+  m_EditorClassIdentifier: 
+  Name: Queretaro
+  Medias:
+  - Image: {fileID: 6074967608241338828, guid: 6d6db5c31cf184f4fb14ec28b5919c1d, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
+  SiteTypology: 2
+  Jobs:
+  - Type: 4
+    Description: "<i>DMC - Direction du Montage Civil</i>\n\r\nAfin de soutenir la
+      forte mont\xE9e en cadence (ramp-up) des livraisons de moteurs LEAP-1A et LEAP-1B,
+      la Direction du Montage de Safran Aircraft Engines engage l'extension de son
+      site de Queretaro, au Mexique.\n\r\nCette nouvelle infrastructure vise des
+      objectifs de production annuels ambitieux, incluant environ 1400 \xE0 1450
+      modules FAN et pr\xE8s de 1100 modules Turbines (r\xE9partis entre les versions
+      1A et 1B). De plus, le site assurera la production et les tests sur banc MRO
+      de 150 moteurs assembl\xE9s LEAP-1A par an.\n\r\nPhysiquement, le nouveau b\xE2timent
+      sera construit dans la continuit\xE9 directe du b\xE2timent actuel P1, cr\xE9ant
+      un espace de travail unifi\xE9 sans mur de s\xE9paration.\r\n"
+  Flag: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}
+  ZoneBackground: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}

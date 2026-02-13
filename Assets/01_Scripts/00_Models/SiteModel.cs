@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 using static Enums;
 
 [Serializable]
@@ -16,9 +17,11 @@ public class SiteJob
 public class SiteModel : ScriptableObject
 {
     public string Name;
-    public List<Sprite> Images;
+    public List<SiteMedia> Medias;
     public Filter SiteTypology;
     public List<SiteJob> Jobs;
+    public Sprite Flag;
+    public Sprite ZoneBackground;
 
     public bool IsOkWithFilters(List<Filter> filters)
     {
@@ -34,5 +37,24 @@ public class SiteModel : ScriptableObject
         }
 
         return typologyOk && jobOk;
+    }
+
+    public List<Sprite> GetThumbnails()
+    {
+        List<Sprite> thumbnails = new List<Sprite>();
+
+        foreach (SiteMedia media in Medias) 
+        {
+            if (media.IsVideo())
+            {
+                thumbnails.Add(media.Video.Thumbnail);
+            }
+            else
+            {
+                thumbnails.Add(media.Image);
+            }
+        }
+
+        return thumbnails;
     }
 }

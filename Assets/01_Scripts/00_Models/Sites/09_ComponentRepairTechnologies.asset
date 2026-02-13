@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: 09_ComponentRepairTechnologies
   m_EditorClassIdentifier: 
   Name: Component Repair Technologies
-  Images:
-  - {fileID: 2885404083046372839, guid: 3af00a28322ef7b4d928151b8399aed0, type: 3}
+  Medias:
+  - Image: {fileID: 2885404083046372839, guid: 3af00a28322ef7b4d928151b8399aed0, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
   SiteTypology: 1
   Jobs:
   - Type: 6
@@ -26,3 +29,5 @@ MonoBehaviour:
       de 50% \xE0 court terme.  \n\r\n<b>Chiffres cl\xE9s du projet :</b>\nMise en
       service : Q4 2026.\nObjectif 2031 : 150 shop visits par an.\nEffectif\_: 500
       personnes sur site."
+  Flag: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}
+  ZoneBackground: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}

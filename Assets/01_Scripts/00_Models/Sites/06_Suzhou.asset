@@ -13,23 +13,28 @@ MonoBehaviour:
   m_Name: 06_Suzhou
   m_EditorClassIdentifier: 
   Name: Suzhou
-  Images:
-  - {fileID: 2568942262999472619, guid: 076073173ceeb114eb3c669de511ed83, type: 3}
+  Medias:
+  - Image: {fileID: 2568942262999472619, guid: 076073173ceeb114eb3c669de511ed83, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
   SiteTypology: 2
   Jobs:
   - Type: 4
     Description: '<i>DMC - Direction du Montage Civil </i>
 
-      
+
 
       La Direction
       du Montage de Safran Aircraft Engines doit agrandir son site de Montage de
       Suzhou en chine pour lui permettre de tenir le Ramp-Up des livraisons de moteurs
       LEAP-1A.
 
-      
 
-      Cette extension de site permettra de produire environ
-      100 modules mineurs 17 pour le LEAP-1A par an
+
+      Cette extension de site permettra de produire environ 100
+      modules mineurs 17 pour le LEAP-1A par an
 
 '
+  Flag: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}
+  ZoneBackground: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}

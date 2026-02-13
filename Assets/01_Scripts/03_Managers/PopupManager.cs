@@ -11,21 +11,23 @@ public class PopupManager : Singleton<PopupManager>
     [SerializeField] private Animator _animator;
     [SerializeField] private TMP_Text _name;   
     [SerializeField] private TMP_Text _description;   
+    [SerializeField] private Image _flag;   
     [SerializeField] private Image _image;   
     [SerializeField] private Transform _jobButtonContainer;   
     [SerializeField] private PopupJobButtonController _jobButtonPrefab;
-    [SerializeField] private GameObject _imageButtons;
+    [SerializeField] private GameObject _navigationButtons;
     [SerializeField] private GameObject _imageContainer;
+    [SerializeField] private GameObject _playVideoButton;
 
     private List<PopupJobButtonController> _spawnedJobButtons = new List<PopupJobButtonController>();
-    private List<Sprite> _images = new List<Sprite>();
-    private int _imageIndex = 0;
 
     private UnityEvent _popupQuit = new UnityEvent();
     public UnityEvent PopupQuit => _popupQuit;
 
     private SiteModel _currentModel;
     public SiteModel CurrentModel => _currentModel;
+
+    private int _mediaIndex = 0;
 
     private void Awake()
     {
@@ -48,10 +50,10 @@ public class PopupManager : Singleton<PopupManager>
             _animator.SetBool("Visible", true);
             _name.text = model.Name;
             AddJobButtons(model);
-            _images = model.Images;
-            _imageButtons.SetActive(_images.Count > 1);
-            _imageIndex = 0;
-            SetImage();
+            _navigationButtons.SetActive(_currentModel.Medias.Count > 1);
+            _mediaIndex = 0;
+            SetMedia();
+            _flag.sprite = model.Flag;
         }
         else
         {
@@ -84,30 +86,36 @@ public class PopupManager : Singleton<PopupManager>
     {
         if (right)
         {
-            _imageIndex++;
-            if(_imageIndex > _images.Count -1)
+            _mediaIndex++;
+            if(_mediaIndex > _currentModel.Medias.Count -1)
             {
-                _imageIndex = 0;
+                _mediaIndex = 0;
             }
         }
         else
         {
-            _imageIndex--;
-            if(_imageIndex < 0)
+            _mediaIndex--;
+            if(_mediaIndex < 0)
             {
-                _imageIndex = _images.Count - 1;
+                _mediaIndex = _currentModel.Medias.Count - 1;
             }
         }
-        SetImage();
+        SetMedia();
     }
 
-    public void SetImage()
+    public void SetMedia()
     {
-        _imageContainer.SetActive(_images.Count > 0);
-        if (_images.Count > 0)
+        _imageContainer.SetActive(_currentModel.Medias.Count > 0);
+        if (_currentModel.Medias.Count > 0)
         {
-            _image.sprite = _images[_imageIndex];
+            _image.sprite = _currentModel.Medias[_mediaIndex].GetThumbnail();
         }
+
+        _playVideoButton.SetActive(_currentModel.Medias[_mediaIndex].IsVideo());
     }
 
+    public void PlayVideo()
+    {
+        VideoPlayerManager.Instance.PrepareVideo(_currentModel.Medias[_mediaIndex].Video.VideoClip);
+    }
 }

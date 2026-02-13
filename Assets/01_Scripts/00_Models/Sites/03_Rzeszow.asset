@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: 03_Rzeszow
   m_EditorClassIdentifier: 
   Name: "Rzesz\xF3w"
-  Images:
-  - {fileID: 6698677433582134638, guid: c206a03ee2153b14ba1eb8aa4f11cb3f, type: 3}
+  Medias:
+  - Image: {fileID: 6698677433582134638, guid: c206a03ee2153b14ba1eb8aa4f11cb3f, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
   SiteTypology: 0
   Jobs:
   - Type: 3
@@ -25,3 +28,5 @@ MonoBehaviour:
       est d\u2019acc\xE9l\xE9rer le ramp-up pour SAEP Research & Development Center
       et STS R&D center, notamment pour le d\xE9veloppement du programme Rise.\n\r\n<b>Chiffres
       cl\xE9s du projet :</b>\nMise en service IT : 2028/2029.\nEffectif : 360 salari\xE9s."
+  Flag: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}
+  ZoneBackground: {fileID: 8003866558831025804, guid: 2e8289f2e600a5f4f986dee16e2aa45c, type: 3}

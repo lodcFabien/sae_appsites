@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: 07_Bruxelles
   m_EditorClassIdentifier: 
   Name: Bruxelles
-  Images:
-  - {fileID: -3567704576632835104, guid: eede3e2a4c31f884fa8c5d4ce54ea6ae, type: 3}
+  Medias:
+  - Image: {fileID: -3567704576632835104, guid: eede3e2a4c31f884fa8c5d4ce54ea6ae, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
   SiteTypology: 0
   Jobs:
   - Type: 6
@@ -33,3 +36,5 @@ MonoBehaviour:
       cl\xE9s du projet :</b>\nMise en service : juillet 2027.\nObjectif : d\xE9m\xE9nagement
       et modernisation de l\u2019activit\xE9.\nEffectif : 600 personnes, dont 200
       cr\xE9ations de poste."
+  Flag: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}
+  ZoneBackground: {fileID: 21300000, guid: 778abe24dec17a74dbe9c712ebc9b394, type: 3}

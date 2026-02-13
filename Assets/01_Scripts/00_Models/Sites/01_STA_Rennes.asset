@@ -13,10 +13,23 @@ MonoBehaviour:
   m_Name: 01_STA_Rennes
   m_EditorClassIdentifier: 
   Name: STA Rennes
-  Images:
-  - {fileID: 8221607794922587742, guid: 381209b804b9c584a9d08b9d1e2946a0, type: 3}
-  - {fileID: 117629184312973049, guid: ad03cb7795c2dc54898f1c6233f068f2, type: 3}
-  - {fileID: -472864061019622330, guid: 6d9dabdc99692fa4787f864756ba2634, type: 3}
+  Medias:
+  - Image: {fileID: 8221607794922587742, guid: 381209b804b9c584a9d08b9d1e2946a0, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
+  - Image: {fileID: 117629184312973049, guid: ad03cb7795c2dc54898f1c6233f068f2, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
+  - Image: {fileID: -472864061019622330, guid: 6d9dabdc99692fa4787f864756ba2634, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
+  - Image: {fileID: -472864061019622330, guid: 6d9dabdc99692fa4787f864756ba2634, type: 3}
+    Video:
+      Thumbnail: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}
+      VideoClip: {fileID: 32900000, guid: 4205fb8975307494cb6cd00c2fc05278, type: 3}
   SiteTypology: 0
   Jobs:
   - Type: 3
@@ -42,3 +55,5 @@ MonoBehaviour:
       annuelles \xE0 terme.\n\r\n<b>Chiffres cl\xE9s du projet :</b>\nMise en service
       : Janvier 2028.\nObjectif: 66 000 inspections de pi\xE8ces par an, 36 000 r\xE9parations
       de pi\xE8ces par an.\nEffectif : 250 cr\xE9ations de postes."
+  Flag: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}
+  ZoneBackground: {fileID: 21300000, guid: 27259fa837bd69b4895767311d093d55, type: 3}

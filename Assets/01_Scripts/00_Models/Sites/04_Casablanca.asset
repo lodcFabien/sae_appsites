@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: 04_Casablanca
   m_EditorClassIdentifier: 
   Name: Casablanca
-  Images:
-  - {fileID: -6931445536343981152, guid: 5623d90a2ab820e48a1ba4e9cddc9031, type: 3}
-  - {fileID: 482328035057470764, guid: 70c39dec074e8264b80cb1200103efcc, type: 3}
+  Medias:
+  - Image: {fileID: -6931445536343981152, guid: 5623d90a2ab820e48a1ba4e9cddc9031, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
+  - Image: {fileID: 482328035057470764, guid: 70c39dec074e8264b80cb1200103efcc, type: 3}
+    Video:
+      Thumbnail: {fileID: 0}
+      VideoClip: {fileID: 0}
   SiteTypology: 0
   Jobs:
   - Type: 4
@@ -38,3 +44,5 @@ MonoBehaviour:
       et des fonctions tertiaires.\n\r\n<b>Chiffres cl\xE9s du projet :</b>\nMise
       en service : Septembre 2026.\r\nSuperficie\_: 25\_000 m\xB2.\nObjectif 2031
       : 150 shop visits par an.\nEffectif : 600 cr\xE9ations de postes."
+  Flag: {fileID: 574219033452725064, guid: 8e82731e0631ac14cac5cc4ae9d6d71e, type: 3}
+  ZoneBackground: {fileID: 21300000, guid: f8599ce309fbe874f88dffa38d6c71ed, type: 3}
